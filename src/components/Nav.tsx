@@ -1,9 +1,10 @@
+import * as React from "react";
 
 import { DefaultButton } from "@fluentui/react/lib/Button";
 import { Stack } from "@fluentui/react/lib/Stack";
 import { SwatchColorPicker } from "@fluentui/react/lib/SwatchColorPicker";
 import { TextField } from "@fluentui/react/lib/TextField";
-import * as React from "react";
+
 import { DataContext } from "../utilizeContext/dataContext";
 import { PInfoStatus } from "../utilizeContext/type";
 
