@@ -1,6 +1,8 @@
 import * as React from "react";
-import { DataContext, datas } from "../utilizeContext/dataContext";
-import { PInfoStatus } from "../utilizeContext/type";
+
+import { DataContext, datas } from "../../utilizeContext/dataContext";
+import { PInfoStatus } from "../../utilizeContext/type";
+
 import Wrapper from "./Wrapper";
 
 const Utilize: React.FC = () => {

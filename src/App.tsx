@@ -2,9 +2,10 @@ import React from 'react';
 
 import { Stack } from '@fluentui/react/lib/Stack';
 
-import Study from './components/Study';
+import Study from './components/study/Study';
 import { DefaultButton } from '@fluentui/react';
-import Utilize from './components/Utilize';
+import Utilize from './components/utilize/Utilize';
+
 
 export const App: React.FC = () => {
   const [isStudy, setIsStudy] = React.useState<boolean>(false);

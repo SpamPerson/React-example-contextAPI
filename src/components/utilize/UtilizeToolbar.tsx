@@ -1,7 +1,10 @@
-import { PrimaryButton, Stack } from "@fluentui/react";
 import * as React from "react";
-import { DataContext } from "../utilizeContext/dataContext";
-import { PInfoStatus } from "../utilizeContext/type";
+
+import { PrimaryButton } from "@fluentui/react/lib/Button";
+import { Stack } from "@fluentui/react/lib/Stack";
+
+import { DataContext } from "../../utilizeContext/dataContext";
+import { PInfoStatus } from "../../utilizeContext/type";
 
 const UtilizeToolbar: React.FC = () => {
    const dataContext = React.useContext(DataContext);

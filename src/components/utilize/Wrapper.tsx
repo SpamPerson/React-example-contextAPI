@@ -7,14 +7,15 @@ import UtilizeToolbar from "./UtilizeToolbar";
 import Viewer from "./Viewer";
 
 const Wrapper: React.FC = () => {
+
    return (
       <Stack>
          <UtilizeToolbar />
-         <Stack horizontal tokens={{childrenGap:10}}>
-            <Stack.Item style={{padding:10}}>
+         <Stack horizontal tokens={{ childrenGap: 10 }}>
+            <Stack.Item style={{ padding: 10 }}>
                <Nav />
             </Stack.Item>
-            <Stack.Item style={{padding:10,width:'100%'}}>
+            <Stack.Item style={{ padding: 10, width: "100%" }}>
                <Viewer />
             </Stack.Item>
          </Stack>
